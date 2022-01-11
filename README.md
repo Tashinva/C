@@ -2,3 +2,5 @@ in this Foldr i Just Practicing my C programming language and try to make this f
 
 
 I'm Saving on github because I'm Leaning github too 
+
+If you want to use this project you can use it and if you want to change anythink and want to add more file on this you can wotk on that only when you want 
