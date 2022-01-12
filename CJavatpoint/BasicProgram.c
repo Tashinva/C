@@ -5,10 +5,9 @@ int main()
     // Hello World
     printf("Hello World\n");
 
-
     //line break
     printf("\n");
-
+    printf("\n");
 
     // add two numbers
     int a;
@@ -17,10 +16,8 @@ int main()
     int c = a + b;
     printf("%d + %d = %d\n", a, b, c);
 
-
     //line break
     printf("\n");
-
 
     // simple interest calculation
     int principle, time, rate, simple_interest;
@@ -38,14 +35,12 @@ int main()
 
     printf("The simple interest is: %d\n", simple_interest);
 
-
     //line break
     printf("\n");
 
-
     // simple share price calculation
 
-     int share_price, no_of_shares, commission, total_amount;
+    int share_price, no_of_shares, commission, total_amount;
 
     printf("Enter the share price: ");
     scanf("%d", &share_price);
@@ -59,10 +54,6 @@ int main()
     total_amount = share_price * no_of_shares + commission;
 
     printf("The total amount is: %d\n", total_amount);
-
-
-
-
 
     return 0;
 }
