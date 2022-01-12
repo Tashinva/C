@@ -87,5 +87,42 @@ int main()
     printf("Minimum element is %d\n", min);
 
 
+
+/*
+1 2 3 4 5
+
+
+2
+1
+3
+4
+5
+
+
+v v s s 
+
+
+v
+v
+s
+s
+s
+
+
+Enter 5 numbers: 2
+2
+2
+2
+2
+2 2 2 2 2
+
+
+Enter 8 characters: vikash singh
+You Typed = 
+ v i k a s h s
+Minimum element is 1
+
+*/
+
     return 0;
 }
