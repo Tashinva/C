@@ -1,7 +1,6 @@
 #include <stdio.h>
 int Example1();
 int Example2();
-int Example3();
 int main()
 {
 
@@ -13,7 +12,7 @@ int main()
 
 int Example1()
 {
-printf("\n-------------Eample2-----------------");
+    printf("\n-------------Eample2-----------------");
 
     char c;
     int choice, dummy;
@@ -30,7 +29,7 @@ printf("\n-------------Eample2-----------------");
             printf("Javatpoint\n");
             break;
         case 3:
-            exit(0);    // this is new this will exit the program
+            exit(0); // this is new this will exit the program
             break;
         default:
             printf("please enter valid choice\n");
@@ -41,15 +40,15 @@ printf("\n-------------Eample2-----------------");
     } while (c == 'y');
 }
 
-int Example2(){
-printf("\n-------------Eample2-----------------");
-    int a=1;
+int Example2()
+{
+    printf("\n-------------Eample2-----------------");
+    int a = 1;
     do
     {
         printf("%d\n", a);
         a++;
-    } while (a<10);
-    
+    } while (a < 10);
 
     return 0;
 }
